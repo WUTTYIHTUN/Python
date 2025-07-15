@@ -204,3 +204,35 @@ print(imutable.difference(seq))
 
 print(mutable ^ seq)#排他的論理和
 print(mutable.symmetric_difference(seq))
+..............................................................................
+If文
+if 条件式；
+処理A
+
+your_name = input()
+if your_name.startswith("W"):
+    print("You are Wutt Yi")
+
+your_name = input()
+if your_name.startswith('Uchida'):
+    print("You ar Uchida Yuuto")
+elif your_name.startswith('Ebayashi'):
+    print("You are Ebayashi")
+else:
+    print("I don't know You.Who is you?")
+.................................................................................
+比較演算子
+< <= > >= == != is is not in
+
+ブール演算
+x or y / x and y / not x
+
+暗黙 True or False
+中身はからかどうかを確認すること
+
+list_a = ['Mg','O']
+if list_a:
+    print("空ではありません")
+else:
+    print("空です")
+..................................................................................
