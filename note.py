@@ -17,13 +17,13 @@ total5 = 3//2
 print(total5)
 
 total6 = 10%3
-print(total6)#l‘¥‰‰Zq
+print(total6)#å››å‰‡æ¼”ç®—å­
 
-total7 = 10+20-10/5*100**0@—Dæ‡ˆÊ
+total7 = 10+20-10/5*100**0ã€€å„ªå…ˆé †ä½
 
 print(1/0) 0 Division Error
 ...........................................................
-•Ï”‚Ìg‚¢•û
+å¤‰æ•°ã®ä½¿ã„æ–¹
 price = 100
 print(price)
 
@@ -34,7 +34,7 @@ price_b = 100
 price_a = price_b
 print(price_a)
 .............................................................
-•¶š—ñŒ^
+æ–‡å­—åˆ—å‹
 name = 'Wutt Yi Htun'
 print(name)
 
@@ -45,13 +45,13 @@ print(text + "\n" + text1)
 text2 = ''
 text2 += 'Hello'
 text2 += 'World'
-print(text2)@•¶š‚ğŒ‹Œê‚Å‚«‚é
+print(text2)ã€€æ–‡å­—ã‚’çµèªã§ãã‚‹
 
 sample = 10
-print (str(10))#”’l‚ğ•¶š—ñ‚É•ÏŠ·‚·‚é‚±‚Æ‚à‚Å‚«‚Ü‚·B
+print (str(10))#æ•°å€¤ã‚’æ–‡å­—åˆ—ã«å¤‰æ›ã™ã‚‹ã“ã¨ã‚‚ã§ãã¾ã™ã€‚
 
 sample1 = 14.5
-print(int(14.5))#DoubleŒ^‚ğ®”•û‚É•ÏŠ·‚·‚é‚±‚Æ‚Å‚«‚Ü‚·
+print(int(14.5))#Doubleå‹ã‚’æ•´æ•°æ–¹ã«å¤‰æ›ã™ã‚‹ã“ã¨ã§ãã¾ã™
 
 sample2 = 1.6
 sample3 = sample2
@@ -59,7 +59,7 @@ print(int(sample3))
 
 name = 'taro'
 print(name.title())
-print(name.upper())#Method‚ğ•t‚¯‚é‚±‚Æ‚Å‚¢‚ë‚¢‚ë‚ÈŒ`‚ğ•ÏŠ·‚Å‚«‚é
+print(name.upper())#Methodã‚’ä»˜ã‘ã‚‹ã“ã¨ã§ã„ã‚ã„ã‚ãªå½¢ã‚’å¤‰æ›ã§ãã‚‹
 ............................................................
 name = 'taro'
 print(name.title())
@@ -71,7 +71,7 @@ name2 = 'Wutt Yi HHtun'
 print(name2.replace('HHtun','Htun'))
 
 #Indexing 
-text = '¡“ú‚Í‚¢‚¢“V‹C‚Å‚·‚Ë'
+text = 'ä»Šæ—¥ã¯ã„ã„å¤©æ°—ã§ã™ã­'
 print(text[0])
 print(text[-2])
 
@@ -87,17 +87,17 @@ print(str_list)
 foods = ['Coffee','Tea','Pasta']
 print(foods)
 print(foods[0])
-print(foods.append('Cake'))#’Ç‰Á‚·‚é
-print(foods.pop(0))#íœ‚·‚é
+print(foods.append('Cake'))#è¿½åŠ ã™ã‚‹
+print(foods.pop(0))#å‰Šé™¤ã™ã‚‹
 
 
-#ƒŠƒXƒguv‚ÅƒJƒ“ƒ}‚ğ‹æØ‚ÅŠi”[‚Ìƒf[ƒ^‚ğ‘‚­
-#ƒŠƒXƒg’†‚É‚àƒŠƒXƒg‚ğ“ü‚ê‚é
+#ãƒªã‚¹ãƒˆã€Œã€ã§ã‚«ãƒ³ãƒã‚’åŒºåˆ‡ã§æ ¼ç´ã®ãƒ‡ãƒ¼ã‚¿ã‚’æ›¸ã
+#ãƒªã‚¹ãƒˆä¸­ã«ã‚‚ãƒªã‚¹ãƒˆã‚’å…¥ã‚Œã‚‹
 foods = ['Coffee','Bread','Sandwich','Candy']
 print (foods[0])
 print (foods[::2])
 
-#’Ç‰Á‚·‚é(append)Aíœ(pop)Aƒf[ƒ^‚ğ•Ï‚¦‚é
+#è¿½åŠ ã™ã‚‹(append)ã€å‰Šé™¤(pop)ã€ãƒ‡ãƒ¼ã‚¿ã‚’å¤‰ãˆã‚‹
 foods.append('Butter')
 print (foods)
 
@@ -107,22 +107,22 @@ print(foods)
 del foods[0]
 print(foods)
 
-#g—p•p“x‚ª‚‚¢ŠÖ”(len,max,min,sum,sorted)
+#ä½¿ç”¨é »åº¦ãŒé«˜ã„é–¢æ•°(len,max,min,sum,sorted)
 .................................................
 
-#ƒ~ƒ…[ƒ^ƒuƒ‹i•ÏX‰Â”\j
+#ãƒŸãƒ¥ãƒ¼ã‚¿ãƒ–ãƒ«ï¼ˆå¤‰æ›´å¯èƒ½ï¼‰
 numbers = [1,2,3,4,5]
-numbers[0] = 100 #0‚É100‚ğ“ü‚ê•Ï‚í‚è‚Ü‚·
-print(numbers)#•¶š—ñ‚ğ‹–‚µ‚Ä‚È‚¢
+numbers[0] = 100 #0ã«100ã‚’å…¥ã‚Œå¤‰ã‚ã‚Šã¾ã™
+print(numbers)#æ–‡å­—åˆ—ã‚’è¨±ã—ã¦ãªã„
 
 numbers1 = [6,3,5,4,7,2,1,9]
 numbers1.sort()
-print(numbers1)#¸‡‚É•À‚×‘Ö‚¦
+print(numbers1)#æ˜‡é †ã«ä¸¦ã¹æ›¿ãˆ
 ..................................................
-Tuple‚ÍƒCƒ~ƒ…[ƒ^ƒuƒ‹‚Å•ÏX‚Å‚«‚È‚¢‚Å‚·
-ƒŠƒXƒg‚Æ—‚Á‚Ä‚¢‚Ü‚·AƒŠƒXƒguv‚ğij‚Æ‚µ‚Ä•Ï‚í‚é‚¾‚¯‚Å‚·
-ƒf[ƒ^‚Ì’Ç‰ÁAíœ‚ª•K—v‚È‚¢˜A‘±‚µ‚½ƒf[ƒ^‚Å‚·B
-append,pop‚È‚Ç‚ª‚Å‚«‚È‚¢‚Å‚·
+Tupleã¯ã‚¤ãƒŸãƒ¥ãƒ¼ã‚¿ãƒ–ãƒ«ã§å¤‰æ›´ã§ããªã„ã§ã™
+ãƒªã‚¹ãƒˆã¨ä¼¼ã£ã¦ã„ã¾ã™ã€ãƒªã‚¹ãƒˆã€Œã€ã‚’ï¼ˆï¼‰ã¨ã—ã¦å¤‰ã‚ã‚‹ã ã‘ã§ã™
+ãƒ‡ãƒ¼ã‚¿ã®è¿½åŠ ã€å‰Šé™¤ãŒå¿…è¦ãªã„é€£ç¶šã—ãŸãƒ‡ãƒ¼ã‚¿ã§ã™ã€‚
+append,popãªã©ãŒã§ããªã„ã§ã™
 
 my_tuple = ('hello',10,True,False,None)
 print(my_tuple[0])
@@ -133,23 +133,23 @@ print(empty_tuple)
 one_tuple2 = (10)
 print(one_tuple2)
 
-#Š‡ŒÊ‚ğ•t‚¯‚È‚­‚Ä‚»‚Ì‚Ü‚Üg‚¦‚éA©—R‚Å‚·
-#ƒAƒ“ƒpƒbƒN‘ã“ü
+#æ‹¬å¼§ã‚’ä»˜ã‘ãªãã¦ãã®ã¾ã¾ä½¿ãˆã‚‹ã€è‡ªç”±ã§ã™
+#ã‚¢ãƒ³ãƒ‘ãƒƒã‚¯ä»£å…¥
 tuple1 = 'Cake',10,True,False
 print(tuple1)
 
 a,b = 1,2
 print(a,b)
 ............................................................
-#«‘
-report = {'match':80,'science':100}#'ƒL[‚Æ‚È‚é–¼‘O':'’l'
+#è¾æ›¸
+report = {'match':80,'science':100}#'ã‚­ãƒ¼ã¨ãªã‚‹åå‰':'å€¤'
 print(report)
 
 print(report['match'])
 print(report['science'])
 
-#1‚ÍintŒ^‚ÌƒIƒuƒWƒFƒNƒg
-#Hallo‚ÍstrŒ^‚ÌƒIƒuƒWƒFƒNƒg
+#1ã¯intå‹ã®ã‚ªãƒ–ã‚¸ã‚§ã‚¯ãƒˆ
+#Halloã¯strå‹ã®ã‚ªãƒ–ã‚¸ã‚§ã‚¯ãƒˆ
 .............................................................
 report = {'match':80,'science':100}
 print(report)
@@ -158,16 +158,16 @@ print(report['match'])
 print(report['science'])
 
 report['Japanese'] = 70
-print(report)”’Ç‰Á‚·‚é
+print(report)ï¼ƒè¿½åŠ ã™ã‚‹
 
 del report['science']
-print(report)”íœ‚·‚é
+print(report)ï¼ƒå‰Šé™¤ã™ã‚‹
 
 report['English'] = 80
-print(report)”’Ç‰Á‚·‚é
+print(report)ï¼ƒè¿½åŠ ã™ã‚‹
 .............................................................
-”W‡‚Í«‘‚Æ—‚Á‚Ä‚éB«‘‚ğƒL[‚¾‚¯‚É‚µ‚½‚à‚Ì
-”setŠÖ”‚Ìˆø”‚ÉƒŠƒXƒg‚âƒ^ƒvƒ‹A«‘‚È‚Ç‚ğ“n‚·‚ÆW‡•û‚É•ÏŠ·‚³‚ê‚Ü‚·
+ï¼ƒé›†åˆã¯è¾æ›¸ã¨ä¼¼ã£ã¦ã‚‹ã€‚è¾æ›¸ã‚’ã‚­ãƒ¼ã ã‘ã«ã—ãŸã‚‚ã®
+ï¼ƒseté–¢æ•°ã®å¼•æ•°ã«ãƒªã‚¹ãƒˆã‚„ã‚¿ãƒ—ãƒ«ã€è¾æ›¸ãªã©ã‚’æ¸¡ã™ã¨é›†åˆæ–¹ã«å¤‰æ›ã•ã‚Œã¾ã™
 
 numbers = {1,2,3,4,5}
 print(numbers)
@@ -176,13 +176,13 @@ empty_set = set()
 print(empty_set)
 
 numbers = {1,2,1,5,3,1,2,4,4}
-print(numbers)”ÀÛ‚É‚ ‚é”Ô†‚¾‚¯‚ğæ‚è‚¾‚·(d•¡‚ğ‚à‚Æ‚ß‚È‚¢j
+print(numbers)ï¼ƒå®Ÿéš›ã«ã‚ã‚‹ç•ªå·ã ã‘ã‚’å–ã‚Šã ã™(é‡è¤‡ã‚’ã‚‚ã¨ã‚ãªã„ï¼‰
 
 numbers.add(6)
-print(numbers)”’Ç‰Á‚·‚é
+print(numbers)ï¼ƒè¿½åŠ ã™ã‚‹
 
 numbers.remove(5)
-print(numbers)”íœ‚·‚é
+print(numbers)ï¼ƒå‰Šé™¤ã™ã‚‹
 
 .......................................................................
 mutable = {'list','dict','set'}
@@ -194,13 +194,13 @@ print(imutable)
 print(seq)
 
 print(mutable & seq)
-print(mutable.intersection(seq))”ÏW‡[‹¤’Ê“_‚ğæ‚èo‚·
+print(mutable.intersection(seq))ï¼ƒç©é›†åˆãƒ¼å…±é€šç‚¹ã‚’å–ã‚Šå‡ºã™
 
 print(mutable | seq)
-print(mutable.union(seq))”˜aW‡[‹¤’Ê“_‚ğŠÜ‚ß‘S•”‚ğæ‚èo‚·
+print(mutable.union(seq))ï¼ƒå’Œé›†åˆãƒ¼å…±é€šç‚¹ã‚’å«ã‚å…¨éƒ¨ã‚’å–ã‚Šå‡ºã™
 
-print(imutable - seq)
+print(imutable - seq)#å·®é›†åˆ
 print(imutable.difference(seq))
 
-print(mutable ^ seq)
+print(mutable ^ seq)#æ’ä»–çš„è«–ç†å’Œ
 print(mutable.symmetric_difference(seq))
