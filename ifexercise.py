@@ -10,3 +10,5 @@ elif numbers % 3 == 0 and numbers % 5 == 0:
     print("FizzBuzz")
 else:
     print("Nothing in here.")
+
+https://x-tech.pasona.co.jp/media/detail.html?p=2636
