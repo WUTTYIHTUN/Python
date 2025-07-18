@@ -31,3 +31,19 @@ numbers = [1,2,3,4,5]
 numbers.reverse()
 for num in numbers:
     print(num)
+.................................................
+names = ['Rudy','Lisa','Rose','Jisa']
+for name in names:
+    print(name+ '  Black Pink')
+.................................................
+for i in range(3):
+    print('kikagaku')
+.................................................
+for i in range(5):
+    double.append(i*2)#append = 追加したいとき使う
+print(double)
+
+double = [i*2 for i in range(5)]
+print(double)
+.................................................
+
