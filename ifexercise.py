@@ -12,3 +12,5 @@ else:
     print("Nothing in here.")
 
 https://x-tech.pasona.co.jp/media/detail.html?p=2636
+
+https://www.kikagaku.co.jp/kikagaku-blog/python-if-else-elif/
