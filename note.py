@@ -236,3 +236,12 @@ if list_a:
 else:
     print("空です")
 ..................................................................................
+What is Different "Else" function between If and while.
+If statement = else is (if not)
+While statement = else is (Defination of the Fianl sentence)
+
+"Break" is same meaning.
+
+if 文と一緒に使い、 if 文の条件と一致していた場合に現在のループの処理を中断し、次のループに進みます。
+...................................................................................
+
