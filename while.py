@@ -57,4 +57,23 @@ friends = ["Alice","Bob","Charlie"]
 for friend in friends:
     print("Hello,"+friend+"!")
 .............................................................
+score = ['100','120','130','110','150']
+score_length = len(score)
+index = 0
 
+while index < score_length:
+    current_score = score[index]
+
+    if type(current_score) == str:
+        print("Error")
+        break
+
+    if current_score == 130:
+        index += 1
+        continue
+
+    print('支払いは'+str(current_score)+"です")
+    index += 1
+
+else:
+    print('Finish')
